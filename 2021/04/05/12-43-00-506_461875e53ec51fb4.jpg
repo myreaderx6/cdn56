@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="javascript, frameworks, libraries, programming, web development"/>
+    <meta name="title" content="Javascript Territory - JSter Javascript Catalog" />
+
+    <title>Javascript Territory - JSter Javascript Catalog</title>
+
+    <link rel="shortcut icon" href="/images/favicon.png"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" type="text/css">
+    <link rel="alternate" type="application/rss+xml" title="JSter's Blog" href="https://feeds.feedburner.com/jster" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/screen.css" />
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/jquery.raty.js"></script>
+<script type="text/javascript" src="/js/jquery.qtip.js"></script>
+<script type="text/javascript" src="/js/jquery.accordion.2.0.min.js"></script>
+<script type="text/javascript" src="/js/readme.js"></script>
+<script type="text/javascript" src="/js/chosen.min.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+<script type="text/javascript" src="/js/jquery.hashchange.js"></script>
+<script type="text/javascript" src="/js/category.js"></script>
+</head>
+<body>
+
+<div id="root">
+
+    <div id="header">
+        <div class="head">
+
+            <div class="inner">
+                <a class="logo" href="/" title="JSter - Home of JavaScript libraries"><span class="first">JS</span><span class="second">ter</span></a>
+
+                <ul class="menu">
+                    <li ><a href="/blog">Blog</a></li>
+                    <li ><a href="/catalog">Catalog</a></li>
+                    <li ><a href="/about">About</a></li>
+                    <li ><a href="/library/new?class=add_button">Add Library</a></li>
+
+                    <li class="search-container">
+                        <div class="search">
+                            <form action="/search">
+                                <input type="text" name="q" placeholder="Find a Javascript library" />
+                            </form>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="toolbox">
+                    <a href="https://twitter.com/jsterlibs" class="twitter-follow-button" data-show-count="false" data-size="large">Follow JSter</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+                    <a href="https://www.facebook.com/pages/Jster-Javascript-Territory/143534515794101" target="_blank"><div class="button button_facebook"></div></a>
+                    <a href="https://feeds.feedburner.com/jster" target="_blank"><div class="button button_rss"></div></a>
+                    <a href="http://eepurl.com/zB_g5" target="_blank"><div class="button button_email"></div></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="subhead">
+            <div class="layout">
+                            </div>
+        </div>
+    </div>
+
+    <div class="layout">
+        <div class="content clear">
+                        
+<div class="updates clear">
+    <div class="blogposts">
+        <div class="posts">
+                    <div class="entry first">
+                <a href="/blog/jster-166">
+            <div class="pic">
+                <img src="" alt="" />
+            </div>
+            <div class="title">
+                JSter #166            </div>
+        </a>
+    </div>
+            <div class="entry second">
+                <a href="/blog/jster-165">
+        <div class="pic">
+            <img src="" alt=""/>
+        </div>
+
+            <div class="title">
+                JSter #165            </div>
+        </a>
+    </div>
+    
+                    <div class="entry third">
+            <a href="/blog/jster-164">
+            <div class="pic">
+                <img src="" alt=""/>
+            </div>
+
+
+                <div class="title">
+                    JSter #164                </div>
+            </a>
+
+        </div>
+    
+
+
+            <div class="fusion">
+                <div id="fusion_ad">
+                    <!-- BuySellAds Zone Code -->
+                    <script type="text/javascript" src="http://cdn.adpacks.com/adpacks.js?legacyid=1285845&zoneid=1386&key=45a8bf2bf168dcd6aaecceec91a640b0&serve=C6SI42Y&placement=jsternet&circle=dev" id="_adpacks_js"></script>
+                    <!-- End BuySellAds Zone Code -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="clear">&nbsp;</div>
+
+    <!-- Begin MailChimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+    <div id="mc_embed_signup">
+    <form action="//jster.us7.list-manage.com/subscribe/post?u=ed40c0084a0c5ba31b3365d65&amp;id=ec6f32bf5e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+        <label for="mce-EMAIL">Subscribe to our biweekly mailing list for fresh JavaScript news</label>
+        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ed40c0084a0c5ba31b3365d65_ec6f32bf5e" tabindex="-1" value=""></div>
+        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        </div>
+    </form>
+    </div>
+    <!--End mc_embed_signup-->
+
+    <div class="clearfix catalog">
+    <div>
+
+    </div>
+   
+
+  <div class="row row1">
+  <h2 class="meta head1">Essentials</h2>
+  <ul class="categories">
+
+    
+<li>
+<div class="category">
+<a data-title="JavaScript application frameworks encapsulate details such as DOM manipulation, event handling and cross-platform issues. Examples: jQuery,  Dojo, YUI, ExtJS" href="/category/application-frameworks">Application Frameworks</a> <span class="small quiet">(74)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="JavaScript mobile frameworks focus on bridging the gap between various mobile targets and make it easier to develop multi-platform applications." href="/category/mobile-frameworks">Mobile Frameworks</a> <span class="small quiet">(28)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="JavaScript MVC frameworks  provide an alternative way to structure applications. Examples: Backbone.js, Ember.js" href="/category/mvc-frameworks">MVC Frameworks</a> <span class="small quiet">(51)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="There are several JavaScript frameworks that make it easier to work with realtime solutions. Examples: Meteor, PubNub, Pusher." href="/category/realtime-frameworks">Realtime Frameworks</a> <span class="small quiet">(10)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="These libraries allow you to use JavaScript and HTML5 technologies for developing desktop application. Examples: AppJS, XULRunner, node-webkit" href="/category/desktop-gui">Desktop GUI</a> <span class="small quiet">(12)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="Various server side libraries, particularly Node.js, have made JavaScript suitable for full stack development." href="/category/serverside-libraries">ServerSide Libraries</a> <span class="small quiet">(19)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="There is a wide range of different kind of testing frameworks for JavaScript. This page lists many of those. These include unit, acceptance and coverage tools." href="/category/testing-frameworks">Testing Frameworks</a> <span class="small quiet">(80)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="These JavaScript templating engines allow you to perform string interpolation and then some using some specific templating syntax. Examples: mustache.js and Jade." href="/category/templating-engines">Templating Engines</a> <span class="small quiet">(34)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="As JavaScript does not come with a proper module or loading system yet, these loaders provide various solutions to the problem. Examples: RequireJS, headjs." href="/category/loaders">Loaders</a> <span class="small quiet">(40)</span>
+</div>
+</li>
+
+
+    </div>
+   
+
+  <div class="row row2">
+  <h2 class="meta head2">UI</h2>
+  <ul class="categories">
+
+    
+<li>
+<div class="category">
+<a data-title="There are various user interface frameworks for JavaScript. These provide various UI widgets and ways to enrich user experience." href="/category/ui-frameworks">UI Frameworks</a> <span class="small quiet">(53)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="As the usage of actual popups is not preferred these days a wide range of alternative solutions have come up. These include specific JavaScript based windows, modals and popups." href="/category/windows-modals-popups">Windows, Modals, Popups</a> <span class="small quiet">(23)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="Given dealing with JavaScript keyboard events can be difficult, a variety of libraries have been developed. They wrap the complexity behind a simple API." href="/category/keyboard-wrappers">Keyboard Wrappers</a> <span class="small quiet">(31)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="Sometimes regular HTML form fields can be somewhat restricting. Fortunately there is a nice selection of JavaScript based widgets available." href="/category/form-widgets">Form Widgets</a> <span class="small quiet">(86)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="Enhance your web page with one of this components. Javascript libraries for creating awesome Trees, Lists, Pagination, and change all the Layout." href="/category/ui-components">UI Components</a> <span class="small quiet">(92)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="JavaScript based sliders and galleries are particularly suitable for improving the presentation of your site and not surprisingly they are somewhat popular these days." href="/category/sliders">Sliders &amp; Galleries</a> <span class="small quiet">(46)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="JavaScript notification libraries mimic notification systems seen on popular operating systems. They can be handy for providing feedback and messages to the user." href="/category/notifications">Notifications</a> <span class="small quiet">(19)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="JavaScript based WYSIWYG editors allow the user to enter data, particularly text, in a way familiar from Word and other popular text editors." href="/category/wysiwyg-editors">WYSIWYG Editors</a> <span class="small quiet">(39)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="As dealing with touch events using JavaScript can be difficult, a wide variety of libraries have been developed. Examples: Hammer.js, iScroll 4, Swipe." href="/category/touch">Touch</a> <span class="small quiet">(60)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="Going beyond HTML and CSS and dynamically enhancing page layout with Masonry and others. This effect widely used in services like Pinterest, Google Plus, Feedly, etc." href="/category/layout">Layout</a> <span class="small quiet">(16)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="Introduce your product for new customer with one of those libraries. Joyride, Intro.js and others can dramatically improve user experience just by showing key elements of your interface." href="/category/tours-guides">Tours &amp; Guides</a> <span class="small quiet">(10)</span>
+</div>
+</li>
+
+
+    </div>
+   
+
+  <div class="row row3">
+  <h2 class="meta head1">Multimedia</h2>
+  <ul class="categories">
+
+    
+<li>
+<div class="category">
+<a data-title="There is just an immense amount of game engines for JavaScript. These range from full-fledged engines with 3D support to 2D and engines designed for some specific purpose." href="/category/game-engines">Game Engines</a> <span class="small quiet">(123)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="JavaScript based physics libraries make it possible for you to perform collision detection, rigid body and blob simulations. Sometimes they integrate with some other engine." href="/category/physics-libraries">Physics Libraries</a> <span class="small quiet">(19)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="JavaScript based animation libraries usually encapsulate the complex CSS syntax into something easier to use and provide new functionality not available in pure CSS based solution." href="/category/animation-libraries">Animation Libraries</a> <span class="small quiet">(25)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="JavaScript based audio libraries wrap various browser APIs into coherent wholes that are easier to use. Examples: audiolib.js, XAudioJS, SoundJS." href="/category/audio-libraries">Audio Libraries</a> <span class="small quiet">(31)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="JavaScript has become a popular platform for setting up presentations. These libraries provide nice transitions and can be styled with CSS." href="/category/presentation-libraries">Presentation Libraries</a> <span class="small quiet">(26)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="Specific JavaScript based video players encapsulate HTML5 Video related concerns and make it easier to write cross-platform solutions." href="/category/video-players">Video Players</a> <span class="small quiet">(10)</span>
+</div>
+</li>
+
+
+    </div>
+   
+
+  <div class="row row4">
+  <h2 class="meta head2">Graphics</h2>
+  <ul class="categories">
+
+    
+<li>
+<div class="category">
+<a data-title="JavaScript based HTML5 Canvas wrappers encapsulate the API and build on top of that. Usually this results in a neater syntax and new functionality." href="/category/canvas-wrappers">Canvas Wrappers</a> <span class="small quiet">(30)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="As WebGL can be difficult to work with as is there are various JavaScript libraries that hide the tricky bits and provide a nicer API to work with. Examples: three.js, PhiloGL, csg.js." href="/category/webgl">WebGL</a> <span class="small quiet">(21)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="JavaScript based image manipulation libraries rely usually on HTML5 Canvas and provide some specific operations. Examples: CamanJS, Pixastic." href="/category/image-manipulation">Image Manipulation</a> <span class="small quiet">(19)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="JavaScript based visualization libraries provide various ways to display data. Examples: D3.js, Raphaël." href="/category/visualization-libraries">Visualization Libraries</a> <span class="small quiet">(92)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="JavaScript color libraries make it easier to manipulate colors and convert them from a colorspace to another." href="/category/color-libraries">Color Libraries</a> <span class="small quiet">(14)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="JavaScript mapping libraries provide a way to display geodata. Sometimes they aggregate various mapping services behind a single interface. " href="/category/mapping-libraries">Mapping Libraries</a> <span class="small quiet">(17)</span>
+</div>
+</li>
+
+
+    </div>
+   
+
+  <div class="row row1">
+  <h2 class="meta head1">Data</h2>
+  <ul class="categories">
+
+    
+<li>
+<div class="category">
+<a data-title="There are various data structures that complement JavaScript’s native ones. These include various trees and collection types." href="/category/data-structures">Data Structures</a> <span class="small quiet">(40)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="As dealing with Dates can be difficult in vanilla JavaScript, various libraries have been written to remedy this. Examples: Moment.js, XDate." href="/category/date-libraries">Date Libraries</a> <span class="small quiet">(18)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="Various storage libraries wrap HTML5 storage facilities and provide a nice API on top of that. Examples: lawnchair, store.js." href="/category/storage-libraries">Storage Libraries</a> <span class="small quiet">(35)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="Client Side Validation is brings a better user experience to every web application. Here we have some nice libraries that perform data validation inside you javascripts." href="/category/validation">Validation</a> <span class="small quiet">(8)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="There are several string libraries for JavaScript. Usually these provide an alternative API or some additional functionality. Examples: Underscore String, XRegExp." href="/category/strings">Strings</a> <span class="small quiet">(13)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="LIbraries for reading and writing files of popular formats: PDF, PSD, SVG? DOCX, XLSX, ZIP, etc" href="/category/file-formats">File Formats</a> <span class="small quiet">(32)</span>
+</div>
+</li>
+
+
+    </div>
+   
+
+  <div class="row row2">
+  <h2 class="meta head2">Development</h2>
+  <ul class="categories">
+
+    
+<li>
+<div class="category">
+<a data-title="A projects which host the javascript libraries and provide tools for fetching and packaging them." href="/category/package-managers">Package Managers</a> <span class="small quiet">(14)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="" href="/category/timing">Timing</a> <span class="small quiet">(4)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="JavaScript toolkits provide some auxiliary functionality that complements the language somehow. Examples: php.js, JSToolkit, Modernizr.
+" href="/category/toolkits">Toolkits</a> <span class="small quiet">(19)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="Various JavaScript code protection tools make it possible to scramble the source code somehow and make it less legible. Examples: UglifyJS, YUI Compressor." href="/category/code-protection">Code Protection</a> <span class="small quiet">(18)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="A set of languages compile to JavaScript. They provide alternative syntax and new programming constructs. Examples: CoffeeScript, Dart, TypeScript." href="/category/compilers-and-parsers">Language Compilers</a> <span class="small quiet">(24)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="There are a few tools that make it easier to debug JavaScript. These include stacktrace.js, Firebug and BetterExamples.js.
+" href="/category/debugging-tools">Debugging Tools</a> <span class="small quiet">(11)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="As documenting your JavaScript code can be a chore, a set of specific documentation tools have emerged. These include JSDuck and Dox." href="/category/documentation-tools">Documentation Tools</a> <span class="small quiet">(17)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="As you usually want to perform various operations on your JavaScript code before a release, a set of build utilities have been created for this purpose. Examples: Grunt, Brunch." href="/category/build-utilities">Build Utilities</a> <span class="small quiet">(26)</span>
+</div>
+</li>
+
+
+    </div>
+   
+
+  <div class="row row3">
+  <h2 class="meta head1">Utilities</h2>
+  <ul class="categories">
+
+    
+<li>
+<div class="category">
+<a data-title="There are several utilities that make it easier to deal with asynchronous programming, control flow and events in JavaScript. Examples: Async, Step, q." href="/category/async-control-flow-event">Async, Control Flow, Event</a> <span class="small quiet">(46)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="Native JavaScript comes with prototypal class system as opposed to classical one. Various solutions have emerged to make it easier to deal with it the classical manner." href="/category/class-system">Class System</a> <span class="small quiet">(26)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="Localization (i18n) and internationalization (l10n) JavaScript libraries allow you to adapt your application to work on new languages and cultures. Examples: i18n-js, Jed." href="/category/i18n-l10n">I18n And L10n</a> <span class="small quiet">(11)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="There are a few DOM libraries for JavaScript. They make it easier to manipulate the structure and create content.
+" href="/category/dom">DOM</a> <span class="small quiet">(10)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="A set of functional programming libraries extend JavaScript’s capabilities further in this regard and make it easier to program in this specific way. Examples: Underscore.js, Sugar.
+" href="/category/functional-programming">Functional Programming</a> <span class="small quiet">(34)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="JavaScript math libraries encapsulate some very specific task. For instance accounting.js makes it easy to convert from a currency to another.
+" href="/category/math-libraries">Math Libraries</a> <span class="small quiet">(34)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="JavaScript routing libraries make it easier to deal with URIs. They leverage HTML5 capabilities. Examples: OriginJS, URI.js.
+" href="/category/routing">Routing</a> <span class="small quiet">(13)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="JavaScript selector libraries, such as Sizzle, make it easier to access the content of DOM structure and provide more versatile syntax than the vanilla API." href="/category/selector-libraries">Selector Libraries</a> <span class="small quiet">(6)</span>
+</div>
+</li>
+
+
+    </div>
+   
+
+  <div class="row row4">
+  <h2 class="meta head2">Applications</h2>
+  <ul class="categories">
+
+    
+<li>
+<div class="category">
+<a data-title="HTML5 applications leverage some specific JavaScript related technologies. These include Canvas, Audio and Web Workers. Here we list a good examples of HTML5 apps for inspiration." href="/category/html5-applications">Html5 Applications</a> <span class="small quiet">(19)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="Node.js based static site generators allow you to build fast, secure and light websites, including blogs. Examples: wintersmith, poet, enfield.
+" href="/category/static-site-generators">Static Site Generators</a> <span class="small quiet">(23)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="There are a wide range of code editors available for JavaScript that have been written in the language itself. These run on the browser." href="/category/code-editors">Code Editors</a> <span class="small quiet">(27)</span>
+</div>
+</li>
+
+
+  
+<li>
+<div class="category">
+<a data-title="Web developers are pretty lazy theese days to draw design from scratch in Photoshop and produce markup and CSS. It&#039;s much easier to use one of those prototyp apps with popular UI frameworks like Twitter Bootstrap or Foundation. Divshot, Easel, JetStrap are good to start with." href="/category/prototyping-design">Design And Prototyping</a> <span class="small quiet">(5)</span>
+</div>
+</li>
+
+
+</div>
+
+<div class="clear"></div>
+
+</div>
+</div>
+
+        </div>
+    </div>
+
+    <div id="root_footer"></div>
+</div>
+
+<div id="footer">
+    <div class="bottom-divider"></div>
+
+        <div class="bottom-ribbon">
+        <div class="layout">
+    <div class="col1">
+        <h2>New Additions</h2>
+        <p><div>
+         <div class="clear">
+             <div class="right">
+
+             </div>
+
+
+                 <a href="/library/toast-ui-editor">TOAST UI Editor</a>
+             <span class="small">
+                 added over 3 years ago to WYSIWYG Editors             </span>
+
+
+
+         </div>
+
+
+              <div class="clear">
+             <div class="right">
+
+             </div>
+
+
+                 <a href="/library/quackquack-in">Quackquack in</a>
+             <span class="small">
+                 added over 3 years ago to Notifications             </span>
+
+
+
+         </div>
+
+
+              <div class="clear">
+             <div class="right">
+
+             </div>
+
+
+                 <a href="/library/slim-js">slim.js</a>
+             <span class="small">
+                 added over 3 years ago to UI Frameworks             </span>
+
+
+
+         </div>
+
+
+              <div class="clear">
+             <div class="right">
+
+             </div>
+
+
+                 <a href="/library/ellipsed">Ellipsed</a>
+             <span class="small">
+                 added over 3 years ago to DOM             </span>
+
+
+
+         </div>
+
+
+              <div class="clear">
+             <div class="right">
+
+             </div>
+
+
+                 <a href="/library/dhtmlxdiagram">dhtmlxDiagram</a>
+             <span class="small">
+                 added over 3 years ago to Visualization Libraries             </span>
+
+
+
+         </div>
+
+
+              <div class="clear">
+             <div class="right">
+
+             </div>
+
+
+                 <a href="/library/react-native-nested-listview">react-native-nested-listview</a>
+             <span class="small">
+                 added over 3 years ago to Mobile Frameworks             </span>
+
+
+
+         </div>
+
+
+              <div class="clear">
+             <div class="right">
+
+             </div>
+
+
+                 <a href="/library/vue-local-storage">Vue local storage</a>
+             <span class="small">
+                 added over 3 years ago to Realtime Frameworks             </span>
+
+
+
+         </div>
+
+
+     </div></p>
+    </div>
+
+    <div class="col2">
+        <h2>Selected</h2>
+        <p>
+<div class="selected">
+	<div class="clear">
+	    <div class="repo " >
+    <div class="well" data-desc="Heap space usage statistics for Node.js version 4.
+
+Like require(&#039;v8&#039;).getHeapSpaceStatistics() in newer versions of Node - it returns statistics about the V8 heap spaces, i.e. the segments which make up the V8 heap.">
+        
+    
+
+        <a href="/library/v8-heap-space-statistics">
+    <div class="logo">
+
+
+
+                <img src="/images/repo.png" />        
+    </div>
+
+    <div class="rates">
+                    </div>
+
+    <h3>v8-heap-space-statistics</h3>
+    </div>
+        </a>
+
+
+    <div class="descr">
+        <div class="tags">
+                                </div>
+    </div>
+
+    </div>
+	</div>
+	
+</div>
+
+
+
+
+</p>
+    </div>
+
+    <div class="clear"></div>
+</div>
+    </div>
+
+    
+    <div class="bottom">
+        <div class="inner">
+
+            <div class="col">
+                <div class="footnote">
+                    <h4>JSter is...</h4>
+                    <p class="small">
+                        JSter is a community-driven catalog of the most useful javascript libraries.
+                        Find the right tool for a work and do it effectively.
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="footnote">
+                    <h4>Navigation</h4>
+                    <a href="/">Home</a>
+                    <a href="/catalog">Catalog</a>
+                    <a href="/blog">Blog</a>
+                    <a href="/about">About</a>
+                </div>
+            </div>
+            <div class="col last">
+                <div class="footnote">
+                    <h4>Credits</h4>
+                    <p class="small">
+                        <strong>JSter</strong> was created by passionate web developers <strong>Juho Vepsäläinen</strong> and
+                        <strong>Codegyre Developers Team</strong> (<strong>Michael Bodnarchuk</strong> and <strong>Nick Palamarchuk</strong>)
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="clear"></div>
+
+</div>
+
+
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1899308-11']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+
+<div id="bugira_widget" style="position: fixed; right: 5px; bottom: 5px;"></div>
+<script type="text/javascript">var __bugira_config = {"theme":"navy", "api_key":"xwx8e86cfo58", "texts": {"button": "Feedback"}};
+(function () {
+    var w = document.createElement('script');
+    w.type = 'text/javascript';
+    w.async = true;
+    w.src = 'https://bugiracdn.appspot.com/bugira-widget.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(w);
+})();</script>
+
+</body>
+</html>
